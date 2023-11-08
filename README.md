@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12764302&assignment_repo_type=AssignmentRepo)
 # Isomorphism
 
 Prove that if two graphs $A$ and $B$ are isomorphic they do *not* have to
@@ -9,3 +10,11 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+
+Let's say that $A$ has two nodes 1 and 2 and that $B$ has two nodes A1 and B1.
+Both of these graphs have no edges meaning that they are not
+completely connected. Now all we have to do is show that there is a bijection
+between these two graphs. This is easy because you can map 1 to A1, and 2 to B1.
+This also means that all the edges of the graphs cause no problems. So this 
+means that $A$ is isomorphic to $B$, and is not completely connected.
